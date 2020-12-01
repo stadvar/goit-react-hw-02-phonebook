@@ -7,7 +7,6 @@
   padding: 5px;
 }
 .List-table tr:not(:last-child) {
-  /* display: block; */
   margin-bottom: 10px;
 }
 .List-table tr:hover {

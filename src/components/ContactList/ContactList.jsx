@@ -3,14 +3,6 @@ import PropTypes from 'prop-types';
 const ContactList = ({ contacts, onDeleteContact }) => {
   return (
     <table className="List-table">
-      {/* <thead>
-        <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
-        </tr>
-      </thead> */}
-
       <tbody>
         {contacts.map(({ name, number, id }) => (
           <tr key={id}>
